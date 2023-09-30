@@ -9,19 +9,15 @@ This repository contains both AMD Software editions that are modified to support
 **Before you install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) to know if a newer version has been released by AMD itself.**
 
 > [!WARNING]  
-> 1. Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported.
-> 2. It won't work with Radeon Pro 5300M, 5500M or any other AMD GPU.
-> 3. It most likely won't work side-by-side with AMD eGPU (but it will work side-by-side with NVIDIA eGPU).
+> Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported. Should work side-by-side with NVIDIA eGPU.
 
-> [!IMPORTANT]  
-> 1. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers, etc.
-> 2. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver. There're no known limitations for regular programs a games (local offline modes of games with anti-cheats will work just fine as well as any single-player games).
+> [!NOTE]
+> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver. There're no known limitations for regular programs a games (local offline modes of games with anti-cheats will work just fine as well as any single-player games).
+> 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers, etc.
+> 3. AMD settings is configured to disable driver updates, notifications and options that are not supported by AMD Radeon Pro 5600M.
+> 4. Global FreeSync option is disabled as well, however you can enable it for specific programs and games via per-application settings.
 
-> [!NOTE]  
-> 1. AMD settings is configured to disable driver updates, notifications and options that are not supported by AMD Radeon Pro 5600M.
-> 2. Global FreeSync option is disabled as well, however you can enable it for specific programs and games via per-application settings.
-
-> Driver `INF` file includes a couple of OpenGL and Direct3D tweaks provided by [BootCampDrivers.com](https://www.bootcampdrivers.com/), though I didn't find it affect performance of this particular GPU in any manner.
+> Driver `INF` file includes a couple of OpenGL and Direct3D-related tweaks found in `Navi10` drivers by [BootCampDrivers.com](https://www.bootcampdrivers.com/), though I didn't find it affects performance of this particular GPU in any manner. Driver `INF` also features usage of full `DXNAVI` instead of regular `DX9` and `DX11` as it was recently approved for `RDNA1` (this update may have improved DirectX 9 and DirectX 11 performance slightly).
 
 ### AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M
 
@@ -76,7 +72,7 @@ This repository contains both AMD Software editions that are modified to support
 
 </details>
 
-## What edition do I choose?
+## Which edition do I choose?
 
 > There's no noticeable performance dirrefence between **Adrenalin Edition** ([YouTube promo](https://www.youtube.com/watch?v=EsvLsnQaYeE)) and **PRO Edition** ([YouTube promo](https://www.youtube.com/watch?v=lLCYjjBgDns)). However AMD Software features are very different: **Adrenalin Edition** allows forcing AMD FidelityFX Super Resolution (FSR 1.0) to any game or fullscreen program, while **PRO Edition** allows using Radeon PRO Viewport Boost (forces higher than native resolution for supersampling of entire screen) and Radeon PRO In-Viewport Image Boost (forces higher than native resolution for viewport of design software only for supersampling the viewport contents, keep in mind not all software is supported) features that may be useful in BIM and 3D design programs.
 
@@ -122,10 +118,6 @@ This repository contains both AMD Software editions that are modified to support
 12. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
 13. Optionally, launch `Cleanup.bat` as administrator
 > [!IMPORTANT]  
-> **Important!** `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't any of these before executing `Cleanup.bat`!
+> `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't need this before executing `Cleanup.bat`!
 14. Restart computer
 15. Launch AMD Software from Start
-
-**Download:**
-- [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/)
-- [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/)
