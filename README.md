@@ -1,6 +1,6 @@
-# AMD Software: Boot Camp Edition for AMD Radeon Pro 5600M
+# AMD Software: Boot Camp Edition
 
-This repository contains both AMD Software editions that are modified to support **AMD Radeon Pro 5600M** `Navi12` `RDNA1` GPU (typically found in **2020 16-inch MacBook Pro**, also known as **MacBookPro16,4**) in Windows 10 & 11. The hardware compatibility is achieved by:
+This repository contains both AMD Software editions that are modified to **exclusively** support **AMD Radeon Pro 5600M** `Navi12` `RDNA1` GPU (typically found in **2020 16-inch MacBook Pro**, also known as **MacBookPro16,4**) in Windows 10 & 11. The hardware compatibility was achieved via:
 - injecting latest `amdkmdag.sys` that supports this GPU (obtained via Windows Update) to packages downloaded from AMD website,
 - updating package `JSON` setup configuration files,
 - updating driver file structure,
@@ -10,7 +10,7 @@ This repository contains both AMD Software editions that are modified to support
 > Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported.
 
 > [!NOTE]
-> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver. There're no known limitations for games in offline modes, even if game features anti-cheat (it will work just fine offline as well as any regular single-player game).
+> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver because package digital signature is incomplete (because of modifications). There're no known limitations for games in offline modes, even if game features anti-cheat (it will work just fine offline as well as any regular single-player game). The cost of signing the package digitally to overcome the issue is too high to bother (however please contact me if you've got the means and the will to do it).
 > 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers and enhancers, etc.
 > 3. AMD settings is configured to disable driver updates and notifications, the options that are not supported by AMD Radeon Pro 5600M are disabled as well.
 > 4. Global FreeSync option is disabled too, though this feature can be used with external display that supports it. You can enable it for specific programs and games via per-application settings and use it with an appropriate external display.
@@ -122,10 +122,19 @@ This repository contains both AMD Software editions that are modified to support
 
 ## Download
 
-> [!NOTE]
-> Files are stored elsewhere due to GitHub's file size limitation of 25 MB. Website virus warning occures because of the `BAT` file that is included in the archive, so it's false alarm.
+`Primary`
+
+[GitHub releases: 23.9.1 · 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/releases/tag/release)
+
+`Secondary`
+
+> Alternative links outside of GitHub are provided below in case GitHub is blocked in your country. Website virus warning occures because of the `BAT` file that is included in the archive, so it's false alarm.
 
 - [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/X1OaUQDxy2CmEQ) `475 MB` `498,236,207 bytes`
 - [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/_XyzOZ7Yr5elgg) `474 MB` `497,954,309 bytes`
 
-**Before you install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) (maybe a newer version is available).**
+**Before you download or install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) (maybe a newer version is available).**
+
+## Legal
+
+All binaries are courtesy and property of Advanced Micro Devices, Inc.
