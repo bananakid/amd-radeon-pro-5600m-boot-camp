@@ -113,11 +113,19 @@ This repository contains both AMD Software editions that are modified to support
 > [!NOTE]  
 > You can pause here and use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) to remove ReLive/DVR from instalation package (if you don't need it), however note that Overlay won't function if ReLive/DVR package wasn't installed!
 9. Launch `Setup.exe` from the location where you extracted downloaded 7Z file
-10. Select `Install Type` `Full Install` if you need AMD settings and deisplay recording software or `Minimal` if you only need the GPU driver
+10. Select `Install Type` `Full Install` if you need AMD settings and deisplay recording software or `Minimal Install` if you only need the GPU driver
 11. Click `Install this driver software anyway` when `Windows can't verify the published of this driver software` dialog appears
 12. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
 13. Optionally, launch `Cleanup.bat` as administrator
 > [!IMPORTANT]  
-> `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't need this before executing `Cleanup.bat`!
+> `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't need any of this before executing `Cleanup.bat`.
 14. Restart computer
 15. Launch AMD Software from Start
+
+## Download
+
+> [!NOTE]
+> Files are stored elsewhere due to GitHub's file size limitation of 25 MB. Website virus warning occures because of the `BAT` file that is included in the archive, so it's false alarm.
+
+- [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/X1OaUQDxy2CmEQ) `475 MB` `498,236,207 bytes`
+- [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/_XyzOZ7Yr5elgg) `474 MB` `497,954,309 bytes`
