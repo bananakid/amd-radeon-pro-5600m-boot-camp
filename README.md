@@ -36,10 +36,10 @@ This repository contains both AMD Software editions that **exclusively** support
   <summary>Software features</summary>
   
   ![AMD Software: Adrenalin Edition 23.9.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/b814e492-30e0-48af-8e2c-9cfe4964844f)
-  ![AMD Software: Adrenalin Edition 23.9.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/cb6ffada-1912-4dac-890a-5e9c4a2601eb)
   ![AMD Software: Adrenalin Edition 23.9.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/d4e19b0d-fe90-49ef-9ce6-a568b863ae82)
   ![AMD Software: Adrenalin Edition 23.9.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ffe115ec-d297-4ffe-aa61-f9b8c7a849a2)
   ![AMD Software: Adrenalin Edition 23.9.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/bdd99fb2-2936-4ad8-af97-d1c746c18cd5)
+↑ Note all those options can be configured separately for any game in AMD Software: Adrenalin Edition 23.9.1.
 
 </details>
 
@@ -60,13 +60,14 @@ This repository contains both AMD Software editions that **exclusively** support
 
 <details>
   <summary>Software features</summary>
-  
+
+  ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/6d92b7d0-4ed8-4cd1-bfb5-c798e8f901f8)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/a0c852f4-0eb2-41a4-a9c7-04871e68ca07)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/6b639a95-f5db-4725-bb73-52f4e15c678f)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/1919b34e-60db-4680-93ae-e14a0961f0aa)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/b480ff32-256a-4ae3-906e-232d64cda9d1)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/80896c13-31af-4551-bf42-c14c69a3a290)
-
+↑ Note there're almost no options for configuring game in AMD Software: PRO Edition 23.Q3.1, however viewport-related options do appear when configuring programs.
 
 </details>
 
