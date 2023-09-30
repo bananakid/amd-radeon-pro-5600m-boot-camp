@@ -7,7 +7,7 @@ This repository contains both AMD Software editions that are modified to **exclu
 - updating driver `INF` file.
 
 > [!WARNING]  
-> Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported.
+> Only **AMD Radeon Pro 5600M** GPU model in single-GPU configuration is supported!
 
 > [!NOTE]
 > 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver because package digital signature is incomplete (because of modifications). There're no known limitations for games in offline modes, even if game features anti-cheat (it will work just fine offline as well as any regular single-player game). The cost of signing the package digitally to overcome the issue is too high to bother (however please contact me if you've got the means and the will to do it).
