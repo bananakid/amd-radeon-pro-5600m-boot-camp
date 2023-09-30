@@ -65,8 +65,8 @@ This repository contains both AMD Software editions that **exclusively** support
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/6b639a95-f5db-4725-bb73-52f4e15c678f)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/1919b34e-60db-4680-93ae-e14a0961f0aa)
   ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/b480ff32-256a-4ae3-906e-232d64cda9d1)
-  ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/6e72d4e5-75ce-4023-9fa3-ac40382ab075)
-  ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/5275bb20-7a2f-44b6-83d7-df67c7dbe496)
+  ![AMD Software: PRO Edition 23.Q3.1](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/80896c13-31af-4551-bf42-c14c69a3a290)
+
 
 </details>
 
