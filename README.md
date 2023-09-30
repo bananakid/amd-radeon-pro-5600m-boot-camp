@@ -1,10 +1,10 @@
 # AMD Software: Boot Camp Edition
 
-This repository contains both AMD Software editions that are modified to **exclusively** support **AMD Radeon Pro 5600M** `Navi12` `RDNA1` GPU (typically found in **2020 16-inch MacBook Pro**, also known as **MacBookPro16,4**) in Windows 10 & 11. The hardware compatibility was achieved via:
-- injecting latest `amdkmdag.sys` that supports this GPU (obtained via Windows Update) to packages downloaded from AMD website,
-- updating package `JSON` setup configuration files,
-- updating driver file structure,
-- updating driver `INF` file.
+This repository contains both AMD Software editions that **exclusively** support **AMD Radeon Pro 5600M** `Navi12` `RDNA1` GPU (typically found in **2020 16-inch MacBook Pro**, also known as **MacBookPro16,4**) in Windows 10 & 11. The hardware compatibility was achieved via the following modifications:
+- injecting latest `amdkmdag.sys` that supports this GPU (obtained via Windows Update) to packages downloaded from AMD website
+- updating package `JSON` setup configuration files
+- updating driver file structure
+- updating driver `INF` file
 
 > [!WARNING]  
 > Only **AMD Radeon Pro 5600M** GPU model in single-GPU configuration is supported!
@@ -111,7 +111,7 @@ This repository contains both AMD Software editions that are modified to **exclu
 > [!NOTE]  
 > You can pause here and use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) to remove ReLive/DVR from instalation package (if you don't need it), however note that Overlay won't function if ReLive/DVR package wasn't installed!
 9. Launch `Setup.exe` from the location where you extracted downloaded 7Z file
-10. Select `Install Type` `Full Install` if you need AMD settings and deisplay recording software or `Minimal Install` if you only need the GPU driver
+10. Select `Install Type` `Full Install` if you need both the GPU driver and AMD software with display recording software or `Minimal Install` if you only need GPU driver
 11. Click `Install this driver software anyway` when `Windows can't verify the published of this driver software` dialog appears
 12. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
 13. Optionally, launch `Cleanup.bat` as administrator
@@ -135,6 +135,6 @@ This repository contains both AMD Software editions that are modified to **exclu
 
 **Before you download or install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) (maybe a newer version is available).**
 
-## Legal
+## Legal Notes
 
-All binaries are courtesy and property of Advanced Micro Devices, Inc.
+I'm not responsible for any damage this software can cause to your computer or data. No binaries were modified via hex editing or any other means. All binaries are courtesy and property of Advanced Micro Devices, Inc.
