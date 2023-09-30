@@ -9,13 +9,13 @@ This repository contains both AMD Software editions that are modified to support
 **Before you install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) to know if a newer version has been released by AMD itself.**
 
 > [!WARNING]  
-> Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported. Should work side-by-side with NVIDIA eGPU.
+> Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported.
 
 > [!NOTE]
-> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver. There're no known limitations for regular programs a games (local offline modes of games with anti-cheats will work just fine as well as any single-player games).
-> 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers, etc.
-> 3. AMD settings is configured to disable driver updates, notifications and options that are not supported by AMD Radeon Pro 5600M.
-> 4. Global FreeSync option is disabled as well, however you can enable it for specific programs and games via per-application settings.
+> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver. There're no known limitations for games in offline modes, even if game features anti-cheat (it will work just fine offline as well as any regular single-player game).
+> 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers and enhancers, etc.
+> 3. AMD settings is configured to disable driver updates and notifications, the options that are not supported by AMD Radeon Pro 5600M are disabled as well.
+> 4. Global FreeSync option is disabled too, though this feature can be used with external display that supports it. You can enable it for specific programs and games via per-application settings and use it with an appropriate external display.
 
 > Driver `INF` file includes a couple of OpenGL and Direct3D-related tweaks found in `Navi10` drivers by [BootCampDrivers.com](https://www.bootcampdrivers.com/), though I didn't find it affects performance of this particular GPU in any manner. Driver `INF` also features usage of full `DXNAVI` instead of regular `DX9` and `DX11` as it was recently approved for `RDNA1` (this update may have improved DirectX 9 and DirectX 11 performance slightly).
 
