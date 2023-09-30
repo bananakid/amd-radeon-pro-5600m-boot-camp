@@ -6,8 +6,6 @@ This repository contains both AMD Software editions that are modified to support
 - updating driver file structure,
 - updating driver `INF` file.
 
-**Before you install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) to know if a newer version has been released by AMD itself.**
-
 > [!WARNING]  
 > Only AMD Radeon Pro 5600M GPU model in single-GPU configuration is supported.
 
@@ -129,3 +127,5 @@ This repository contains both AMD Software editions that are modified to support
 
 - [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/X1OaUQDxy2CmEQ) `475 MB` `498,236,207 bytes`
 - [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/_XyzOZ7Yr5elgg) `474 MB` `497,954,309 bytes`
+
+**Before you install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) (maybe a newer version is available).**
