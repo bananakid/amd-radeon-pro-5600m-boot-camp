@@ -72,11 +72,11 @@ This repository contains both AMD Software editions that **exclusively** support
 
 ## Which edition do I choose?
 
-> There's no noticeable performance dirrefence between **Adrenalin Edition** ([YouTube promo](https://www.youtube.com/watch?v=EsvLsnQaYeE)) and **PRO Edition** ([YouTube promo](https://www.youtube.com/watch?v=lLCYjjBgDns)). However AMD Software features are very different: **Adrenalin Edition** allows forcing AMD FidelityFX Super Resolution (FSR 1.0) to any game or fullscreen program, while **PRO Edition** allows using Radeon PRO Viewport Boost (forces higher than native resolution for supersampling of entire screen) and Radeon PRO In-Viewport Image Boost (forces higher than native resolution for viewport of design software only for supersampling the viewport contents, keep in mind not all software is supported) features that may be useful in BIM and 3D design programs.
+> There's no noticeable performance dirrefence between **Adrenalin Edition** ([YouTube promo](https://www.youtube.com/watch?v=EsvLsnQaYeE)) and **PRO Edition** ([YouTube promo](https://www.youtube.com/watch?v=lLCYjjBgDns)). However AMD Software features are very different: **Adrenalin Edition** allows forcing "AMD FidelityFX Super Resolution" (FSR 1.0) to any game or fullscreen program, while **PRO Edition** allows using "Radeon PRO Viewport Boost" (movement based dynamic resolution), "Radeon PRO In-Viewport Image Boost" (forces higher than native resolution for viewport of design software only for supersampling the viewport contents, keep in mind not all software is supported) and "Radeon PRO Image Boost" (forces higher than native resolution for supersampling of entire screen, so all windowed programs are supersampled while Windows UI is scaled) features that may be useful in CAD, BIM and 3D design programs.
 
 > I attach screenshots of AMD Software for both editions in spoilers so you can have a look at the differences yourself. According to ads the only other difference is stability where **PRO Edition** is advertised as enterprise-grade solution, thus more stable. However I didn't experience any stability issues of **Adrenalin Edition** under moderate load.
 
-> All in all I recommend using **Adrenalin Edition** unless you absolutely need Radeon PRO In-Viewport Image Boost.
+> All in all I recommend using **Adrenalin Edition** unless you absolutely need "Radeon PRO Image Boost" or "Radeon PRO In-Viewport Image Boost".
 
 ## Installation
 
