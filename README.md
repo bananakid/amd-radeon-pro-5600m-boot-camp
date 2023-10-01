@@ -7,10 +7,10 @@ This repository contains both AMD Software editions that **exclusively** support
 - updating driver `INF` file
 
 > [!WARNING]  
-> Only **AMD Radeon Pro 5600M** GPU model in single-GPU configuration is supported!
+> Only **AMD Radeon Pro 5600M** GPU model in single-GPU configuration is supported.
 
 > [!NOTE]
-> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing games online with this driver because package digital signature is incomplete (because of modifications). There're no known limitations for games in offline modes, even if game features anti-cheat (it will work just fine offline as well as any regular single-player game). The cost of signing the package digitally to overcome the issue is too high to bother (however please contact me if you've got the means and the will to do it).
+> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing online with this driver because package digital signature is incomplete. There're no known limitations for games in offline modes, even if game features anti-cheat for online mode (it will work just fine offline, just as well as any regular single-player game). `Update!` **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/) and is no more limited for online gaming, please follow `Important` note in the [Installation](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp#installation) section for details. Unfortunately, **AMD Software: PRO Edition 23.Q3.1** driver package hasn't been signed yet.
 > 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers and enhancers, etc.
 > 3. AMD settings is configured to disable driver updates and notifications, the options that are not supported by AMD Radeon Pro 5600M are disabled as well.
 > 4. Global FreeSync option is disabled too, though this feature can be used with external display that supports it. You can enable it for specific programs and games via per-application settings and use it with an appropriate external display.
@@ -81,6 +81,9 @@ This repository contains both AMD Software editions that **exclusively** support
 
 ## Installation
 
+> [!IMPORTANT]
+> **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/). This makes drivers suitable for online games with anti-cheat systems. If you need online gaming, please consider downloading corresponding `U0000000.inf` & `U0000000.cat` files distributed in a separate archive at the releases section and overwriting original files in `...\23.10.31.01_WHQL_Radeon_Pro_5600M\Packages\Drivers\Display\WT6A_INF` prior to installing. You don't have to follow steps 7 & 8 in this case, just restart the computer as usual. If done correctly, you also won't see a `Windows can't verify the publisher of this driver software` warning as shown in setup sequence below. If you struggle replace the files you can also [download a package redistibution by BootCampDrivers.com](https://nc2.tomas-g.de/index.php/s/sMc6T5jEAtnsbia) `766 MB`. You can safely use the unsigned WHQL-certified driver if you only play games in offline mode (even if there's online mode). Please consider donating to [BootCampDrivers.com](https://www.bootcampdrivers.com/) if you need online gaming with anti-cheat system. Unfortunately, **AMD Software: PRO Edition 23.Q3.1** driver package hasn't been signed yet.
+
 <details>
   <summary>AMD Software: Adrenalin Edition 23.9.1 setup sequence (for reference)</summary>
 
@@ -134,7 +137,7 @@ This repository contains both AMD Software editions that **exclusively** support
 - [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/X1OaUQDxy2CmEQ) `475 MB` `498,236,207 bytes`
 - [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/_XyzOZ7Yr5elgg) `474 MB` `497,954,309 bytes`
 
-**Before you download or install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) (maybe a newer version is available).**
+**Before you download or install, please double-check [AMD's official Boot Camp page](https://www.amd.com/en/support/kb/release-notes/apple-boot-camp) for a newer version.**
 
 ## Legal Notes
 
