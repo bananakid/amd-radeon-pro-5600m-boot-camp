@@ -10,10 +10,11 @@ This repository contains both AMD Software editions that **exclusively** support
 > Only **AMD Radeon Pro 5600M** GPU model in single-GPU configuration is supported.
 
 > [!NOTE]
-> 1. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing online with this driver because package digital signature is incomplete. There're no known limitations for games in offline modes, even if game features anti-cheat for online mode (it will work just fine offline, just as well as any regular single-player game). `Update!` **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/) and is no more limited for online gaming, please follow `Important` note in the [Installation](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp#installation) section for details. Unfortunately, **AMD Software: PRO Edition 23.Q3.1** driver package hasn't been signed yet.
-> 2. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers and enhancers, etc.
-> 3. AMD settings is configured to disable driver updates and notifications, the options that are not supported by AMD Radeon Pro 5600M are disabled as well.
-> 4. Global FreeSync option is disabled too, though this feature can be used with external display that supports it. You can enable it for specific programs and games via per-application settings and use it with an appropriate external display.
+> 1. `Update!` **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/) and is no more limited for online gaming. Please follow **Note** in the [Installation](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp#installation) section for details. **AMD Software: PRO Edition 23.Q3.1** driver package hasn't been signed.
+> 2. Though kernel mode driver that is used is WHQL-certified, it is likely that anti-cheat systems of games won't allow playing online with this driver because package digital signature is incomplete. There're no known limitations for games in offline modes, even if game features anti-cheat for online mode (it will work just fine offline, just as well as any regular single-player game).
+> 3. Both original AMD Software packages are stripped-down and include only AMD Software settings and ReLive (DVR, digital video recording) packages. This means there's no AMD Link and other bloatware as well as audio drivers and enhancers, etc.
+> 4. AMD settings is configured to disable driver updates and notifications, the options that are not supported by AMD Radeon Pro 5600M are disabled as well.
+> 5. Global FreeSync option is disabled too, though this feature can be used with external display that supports it. You can enable it for specific programs and games via per-application settings and use it with an appropriate external display.
 
 > Driver `INF` file includes a couple of OpenGL and Direct3D-related tweaks found in `Navi10` drivers by [BootCampDrivers.com](https://www.bootcampdrivers.com/), though I didn't find it affects performance of this particular GPU in any manner. Driver `INF` also features usage of full `DXNAVI` instead of regular `DX9` and `DX11` as it was recently approved for `RDNA1` (this update may have improved DirectX 9 and DirectX 11 performance slightly).
 
@@ -81,11 +82,11 @@ This repository contains both AMD Software editions that **exclusively** support
 
 ## Installation
 
-> [!IMPORTANT]
-> **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/). This makes drivers suitable for online games with anti-cheat systems. If you need online gaming, please consider downloading corresponding `U0000000.inf` & `U0000000.cat` files distributed in a separate archive at the releases section and overwriting original files in `...\23.10.31.01_WHQL_Radeon_Pro_5600M\Packages\Drivers\Display\WT6A_INF` prior to installing. You don't have to follow steps 7 & 8 in this case, just restart the computer as usual. If done correctly, you also won't see a `Windows can't verify the publisher of this driver software` warning as shown in setup sequence below. If you struggle replace the files you can also [download a package redistibution by BootCampDrivers.com](https://nc2.tomas-g.de/index.php/s/sMc6T5jEAtnsbia) `766 MB`. You can safely use the unsigned WHQL-certified driver if you only play games in offline mode (even if there's online mode). Please consider donating to [BootCampDrivers.com](https://www.bootcampdrivers.com/) if you need online gaming with anti-cheat system. Unfortunately, **AMD Software: PRO Edition 23.Q3.1** driver package hasn't been signed yet.
+> [!NOTE]
+> **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/). This makes drivers suitable for online games with anti-cheat systems. If you need online gaming, please consider downloading corresponding `U0000000.inf` & `U0000000.cat` files distributed in a separate archive at the releases section and overwriting 2 original files in `...\23.10.31.01_WHQL_Radeon_Pro_5600M\Packages\Drivers\Display\WT6A_INF` prior to installing. You don't have to follow steps 7 & 8 in this case, simply restart the computer with no extra steps. If done correctly, you won't see a `Windows can't verify the publisher of this driver software` warning as shown in setup sequence below. If you struggle replace the files you can also [download a package redistibution by BootCampDrivers.com](https://nc2.tomas-g.de/index.php/s/sMc6T5jEAtnsbia) `766 MB`. You can safely use the unsigned WHQL-certified driver if you only play games in offline mode (even if there's online mode). Please consider donating to [BootCampDrivers.com](https://www.bootcampdrivers.com/) if you need online gaming with anti-cheat system support.
 
 <details>
-  <summary>AMD Software: Adrenalin Edition 23.9.1 setup sequence (for reference)</summary>
+  <summary>AMD Software: Adrenalin Edition 23.9.1 setup sequence (for reference, unsigned WHQL-certified driver)</summary>
 
   ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ed7044c0-5bf4-4625-b15a-6d50a0aae802)
   ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/3404f06f-8c65-4caf-8ab7-ecf599bd4ea3)
@@ -95,7 +96,7 @@ This repository contains both AMD Software editions that **exclusively** support
 </details>
 
 <details>
-  <summary>AMD Software: PRO Edition 23.Q3.1 setup sequence (for reference)</summary>
+  <summary>AMD Software: PRO Edition 23.Q3.1 setup sequence (for reference, unsigned WHQL-certified driver)</summary>
   
   ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/2b74d610-14be-4571-ae88-909decc99388)
   ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/cda5b5b1-b543-442e-957c-e93ee8304aa4)
@@ -132,7 +133,7 @@ This repository contains both AMD Software editions that **exclusively** support
 
 `Secondary`
 
-> Alternative links outside of GitHub are provided below in case GitHub is blocked in your country. Website virus warning occures because of the `BAT` file that is included in the archive, so it's false alarm.
+> Alternative links outside of GitHub are provided below in case GitHub is blocked in your country. Note that website virus warning occures because of the `BAT` file that is included in the archive, so it's false alarm.
 
 - [AMD Software: Adrenalin Edition 23.9.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/X1OaUQDxy2CmEQ) `475 MB` `498,236,207 bytes`
 - [AMD Software: PRO Edition 23.Q3.1 WHQL for AMD Radeon Pro 5600M](https://disk.yandex.com/d/_XyzOZ7Yr5elgg) `474 MB` `497,954,309 bytes`
