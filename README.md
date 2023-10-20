@@ -159,7 +159,7 @@ This repository contains both AMD Software editions that **exclusively** support
 
     </details>
     <details>
-      <summary>SAMD Software: PRO Edition 23.Q3.1</summary>
+      <summary>AMD Software: PRO Edition 23.Q3.1</summary>
 
       
       ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/2b74d610-14be-4571-ae88-909decc99388)
@@ -212,7 +212,7 @@ This repository contains both AMD Software editions that **exclusively** support
     </details>
 13. Optionally, launch `Cleanup.bat` as administrator
 > [!WARNING]  
-> `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't need any of this before executing `Cleanup.bat`. You can manually edit the file if you need to keep some of the options.
+> `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD Software control panel and ReLive. Double-check you don't need any of this before executing `Cleanup.bat`. Edit the file if you need to keep something.
 14. Restart computer
 15. Launch AMD Software from Start
 
