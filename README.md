@@ -99,7 +99,7 @@ This repository contains both AMD Software editions that **exclusively** support
 <details>
 <summary>Is this just an old driver version hack with a new AMD Software version?</summary>
     
-> No, `amdkmdag.sys` kernel mode driver acts like "hub" hub for all the driver parts to "guide" their usage. Since all other parts of the driver (typically `DLL` files) are "new" and fit in file structure supported by "older" `amdkmdag.sys`, the actual GPU performance is "new" as well. The versions of `Direct3D`, `Vulkan`, `OpenGL`, `OpenCL` drivers in use can be checked in AMD Software control panel (in Hardware & Details) or in GPU-Z. Performance testing was done to make sure this is correct.
+> No, `amdkmdag.sys` kernel mode driver acts like "hub" for all the driver parts to "guide" their usage. Since all other parts of the driver (typically `DLL` files) are "new" and fit in file structure supported by "older" `amdkmdag.sys`, the actual GPU performance is "new" as well. The versions of `Direct3D`, `Vulkan`, `OpenGL`, `OpenCL` drivers in use can be checked in AMD Software control panel (in Hardware & Details) or in GPU-Z. Benchmarking was done to make sure this is true.
   
 </details>
 
@@ -152,14 +152,14 @@ This repository contains both AMD Software editions that **exclusively** support
 8. Restart computer and press 7 on startup to `7) Disable driver signature enforcement`
 9. Launch `Setup.exe` from the location where you extracted downloaded 7Z file
     <details>
-      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+      <summary>AMD Software: Adrenalin Edition 23.9.1</summary>
 
       
       ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ed7044c0-5bf4-4625-b15a-6d50a0aae802)
 
     </details>
     <details>
-      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+      <summary>SAMD Software: PRO Edition 23.Q3.1</summary>
 
       
       ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/2b74d610-14be-4571-ae88-909decc99388)
@@ -167,14 +167,14 @@ This repository contains both AMD Software editions that **exclusively** support
     </details>
 10. Select `Install Type` `Full Install` if you need both the GPU driver and AMD software with display recording software or `Minimal Install` if you only need GPU driver
     <details>
-      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+      <summary>AMD Software: Adrenalin Edition 23.9.1</summary>
 
       
       ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/3404f06f-8c65-4caf-8ab7-ecf599bd4ea3)
 
     </details>
     <details>
-      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+      <summary>AMD Software: PRO Edition 23.Q3.1</summary>
 
       
       ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/cda5b5b1-b543-442e-957c-e93ee8304aa4)
@@ -182,14 +182,14 @@ This repository contains both AMD Software editions that **exclusively** support
     </details>
 11. Click `Install this driver software anyway` when `Windows can't verify the published of this driver software` dialog appears
     <details>
-      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+      <summary>AMD Software: Adrenalin Edition 23.9.1</summary>
 
       
       ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ccd06773-cb8e-4a5c-90ce-0df17ed03c37)
 
     </details>
     <details>
-      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+      <summary>AMD Software: PRO Edition 23.Q3.1</summary>
 
       
       ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/66afeb5c-718e-4673-a507-c68a0884d850)
@@ -197,14 +197,14 @@ This repository contains both AMD Software editions that **exclusively** support
     </details>
 12. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
     <details>
-      <summary>AMD Software: Adrenalin Edition 23.9.1 setup sequence (unsigned WHQL-certified driver)</summary>
+      <summary>AMD Software: Adrenalin Edition 23.9.1</summary>
 
       
       ![004](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/a64bae4c-e2a8-46cc-b7dc-00ec6bc3130d)
 
     </details>
     <details>
-      <summary>AMD Software: PRO Edition 23.Q3.1 setup sequence (unsigned WHQL-certified driver)</summary>
+      <summary>AMD Software: PRO Edition 23.Q3.1</summary>
 
       
       ![004](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/0bb488bf-05f8-4499-b24e-073b852922d0)
