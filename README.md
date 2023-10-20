@@ -140,7 +140,7 @@ This repository contains both AMD Software editions that **exclusively** support
 ## Installation
 
 > [!NOTE]
-> **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/). This makes drivers suitable for online games with anti-cheat systems. If you need online gaming, please consider downloading 2 signed files distributed in a separate package and then overwriting 2 files in `...\23.10.31.01_WHQL_Radeon_Pro_5600M\Packages\Drivers\Display\WT6A_INF` prior to installing. You also don't have to follow installation steps `7` & `8` in this case, simply restart the computer after step `6`. If done correctly, you won't need step `11` too as you won't see a `Windows can't verify the publisher of this driver software` warning as shown in setup sequence below. Please consider donating to [BootCampDrivers.com](https://www.bootcampdrivers.com/) if you need online gaming with anti-cheat system support. **You can safely use the unsigned WHQL-certified driver if you only play games in offline mode (even if there's support for online mode).**
+> **AMD Software: Adrenalin Edition 23.9.1** driver package was kindly signed with a valid digital certificate by the team of [BootCampDrivers.com](https://www.bootcampdrivers.com/). If you play online games with anti-cheat systems, consider downloading 2 signed files distributed in a separate package and then overwriting 2 files in `...\23.10.31.01_WHQL_Radeon_Pro_5600M\Packages\Drivers\Display\WT6A_INF` prior to installation. Keep in mind you don't have to follow installation steps `7` & `8` in this case, simply restart the computer after step `6`. If done correctly, you won't need step `11` too as you won't see a `Windows can't verify the publisher of this driver software` warning as shown in setup sequence below. Please consider donating to [BootCampDrivers.com](https://www.bootcampdrivers.com/) if you need online gaming with anti-cheat system support. **You can safely use the unsigned WHQL-certified driver if you only play games in offline mode (even if there's support for online mode).**
 
 1. Choose which edition you want to use and download corresponding 7Z file
 2. Extract downloaded 7Z file using [7-Zip](https://www.7-zip.org/) or any other program
@@ -148,16 +148,58 @@ This repository contains both AMD Software editions that **exclusively** support
 4. Launch Command Prompt as Administrator and execute comand `bcdedit /set onetimeadvancedoptions on`
 5. Restart computer and press 4 on startup to enter `4) Safe Mode`
 6. Launch [Display Driver Uninstaller](https://www.wagnardsoft.com/forums/viewforum.php?f=5), select device type `GPU` and click `Clean and do NOT restart`
-8. Launch Command Prompt as Administrator and execute comand `bcdedit /set onetimeadvancedoptions on`
-9. Restart computer and press 7 on startup to `7) Disable driver signature enforcement`
+7. Launch Command Prompt as Administrator and execute comand `bcdedit /set onetimeadvancedoptions on`
+8. Restart computer and press 7 on startup to `7) Disable driver signature enforcement`
 9. Launch `Setup.exe` from the location where you extracted downloaded 7Z file
+    <details>
+      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+
+      
+      ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ed7044c0-5bf4-4625-b15a-6d50a0aae802)
+
+    </details>
+    <details>
+      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+
+      
+      ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/2b74d610-14be-4571-ae88-909decc99388)
+
+    </details>
+10. Select `Install Type` `Full Install` if you need both the GPU driver and AMD software with display recording software or `Minimal Install` if you only need GPU driver
+    <details>
+      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+
+      
+      ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/3404f06f-8c65-4caf-8ab7-ecf599bd4ea3)
+
+    </details>
+    <details>
+      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+
+      
+      ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/cda5b5b1-b543-442e-957c-e93ee8304aa4)
+
+    </details>
+11. Click `Install this driver software anyway` when `Windows can't verify the published of this driver software` dialog appears
+    <details>
+      <summary>Screenshot for AMD Software: Adrenalin Edition 23.9.1</summary>
+
+      
+      ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ccd06773-cb8e-4a5c-90ce-0df17ed03c37)
+
+    </details>
+    <details>
+      <summary>Screenshot for AMD Software: PRO Edition 23.Q3.1</summary>
+
+      
+      ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/66afeb5c-718e-4673-a507-c68a0884d850)
+
+    </details>
+12. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
     <details>
       <summary>AMD Software: Adrenalin Edition 23.9.1 setup sequence (unsigned WHQL-certified driver)</summary>
 
       
-      ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ed7044c0-5bf4-4625-b15a-6d50a0aae802)
-      ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/3404f06f-8c65-4caf-8ab7-ecf599bd4ea3)
-      ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/ccd06773-cb8e-4a5c-90ce-0df17ed03c37)
       ![004](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/a64bae4c-e2a8-46cc-b7dc-00ec6bc3130d)
 
     </details>
@@ -165,16 +207,10 @@ This repository contains both AMD Software editions that **exclusively** support
       <summary>AMD Software: PRO Edition 23.Q3.1 setup sequence (unsigned WHQL-certified driver)</summary>
 
       
-      ![001](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/2b74d610-14be-4571-ae88-909decc99388)
-      ![002](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/cda5b5b1-b543-442e-957c-e93ee8304aa4)
-      ![003](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/66afeb5c-718e-4673-a507-c68a0884d850)
       ![004](https://github.com/bananakid/amd-radeon-pro-5600m-boot-camp/assets/17095595/0bb488bf-05f8-4499-b24e-073b852922d0)
 
     </details>
-11. Select `Install Type` `Full Install` if you need both the GPU driver and AMD software with display recording software or `Minimal Install` if you only need GPU driver
-12. Click `Install this driver software anyway` when `Windows can't verify the published of this driver software` dialog appears
-13. Click `Close` when installation finishes and you see message `Oops! Something went wrong. Error 205 - AMD Software installation completed successfuly but Windows Update may have reverted your driver version during the process`
-14. Optionally, launch `Cleanup.bat` as administrator
+13. Optionally, launch `Cleanup.bat` as administrator
 > [!WARNING]  
 > `Cleanup.bat` will remove AMD Bug Report Tool, remove UI languages (except US English) of AMD Software, remove web service integration for ReLive/DVR (support to upload to YouTube, Twitch, etc.), remove AMD Software context menu item (when you right-click Desktop), disable automatic startup of AMD settings and ReLive/DVR. Double-check you don't need any of this before executing `Cleanup.bat`. You can manually edit the file if you need to keep some of the options.
 14. Restart computer
